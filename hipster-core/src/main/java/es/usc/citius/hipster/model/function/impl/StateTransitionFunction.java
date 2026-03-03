@@ -22,7 +22,6 @@ import es.usc.citius.hipster.model.function.TransitionFunction;
 import es.usc.citius.hipster.util.F;
 import es.usc.citius.hipster.util.Function;
 
-import java.util.ArrayList;
 
 /**
  * Implementation of a {@link es.usc.citius.hipster.model.function.TransitionFunction} which generates

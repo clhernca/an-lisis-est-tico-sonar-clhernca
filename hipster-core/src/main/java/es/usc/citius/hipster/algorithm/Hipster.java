@@ -23,7 +23,6 @@ import es.usc.citius.hipster.algorithm.localsearch.AnnealingSearch.SuccessorFind
 import es.usc.citius.hipster.model.CostNode;
 import es.usc.citius.hipster.model.HeuristicNode;
 import es.usc.citius.hipster.model.Node;
-import es.usc.citius.hipster.model.function.NodeExpander;
 import es.usc.citius.hipster.model.function.impl.ADStarNodeExpander;
 import es.usc.citius.hipster.model.function.impl.ADStarNodeFactory;
 import es.usc.citius.hipster.model.impl.ADStarNodeImpl;

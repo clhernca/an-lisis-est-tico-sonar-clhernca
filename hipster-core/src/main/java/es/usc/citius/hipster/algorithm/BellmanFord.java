@@ -114,7 +114,6 @@ public class BellmanFord<A,S,C extends Comparable<C>,N extends CostNode<A,S,C,N>
                 if (previousNode != null) {
                     // Check both paths. If the new path is better than the previous
                     // path, update and enqueue. Else, discard this node.
-                    //if (comparator.compare(successorNode, previousNode) <= 0){
                     if (successor.getCost().compareTo(previousNode.getCost()) < 0) {
                         // Replace the worst version and re-enqueue (if not in queue)
                         enqueue(successor);

@@ -31,9 +31,4 @@ public interface GraphEdge<V,E> {
     V getVertex2();
     E getEdgeValue();
     Type getType();
-
-//    @Override
-//    public String toString() {
-//        return getVertex1() + " ---(" + edgeValue + ")---" + (isDirected() ? "> " : " ") + getVertex2();
-//    }
 }
